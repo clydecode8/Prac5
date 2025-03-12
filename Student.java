@@ -9,7 +9,7 @@ public class Student {
    
     double getAverageMark()
     {
-        return (RE+SDA+SQAT+SEAM+FM)/4;
+        return (RE+SDA+SQAT+SEAM+FM)/5;
     }
 
   
@@ -31,6 +31,7 @@ public class Student {
         System.out.println(SQAT);
         System.out.println(SEAM);
         System.out.println(FM);
+          System.out.println(getAverageMark());
     }
    
    
